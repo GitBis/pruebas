@@ -1,5 +1,9 @@
 https://github.com/Nexxtor/androidKotlin
 
+https://github.com/Nexxtor/androidKotlin/tree/main/06Navigation
+
+https://drive.google.com/file/d/1RhuiMb5T4xD_KKzYaxmytAEpsRIOOToX/view?usp=drivesdk
+
 https://developer.android.com/guide/components/fragments?hl=es-419#:~:text=Un%20Fragment%20representa%20un%20comportamiento,un%20fragmento%20en%20diferentes%20actividades.
 
 https://developer.android.com/topic/libraries/architecture/viewmodel?hl=es-419
