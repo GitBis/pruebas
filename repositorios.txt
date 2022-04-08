@@ -4,6 +4,12 @@ https://github.com/Nexxtor/androidKotlin/tree/main/06Navigation
 
 https://drive.google.com/file/d/1RhuiMb5T4xD_KKzYaxmytAEpsRIOOToX/view?usp=drivesdk
 
+
+https://developer.android.com/jetpack/androidx/explorer?hl=es-419
+
+
+
+
 https://developer.android.com/guide/components/fragments?hl=es-419#:~:text=Un%20Fragment%20representa%20un%20comportamiento,un%20fragmento%20en%20diferentes%20actividades.
 
 https://developer.android.com/topic/libraries/architecture/viewmodel?hl=es-419
@@ -13,3 +19,55 @@ https://developer.android.com/codelabs/android-lifecycles?hl=es-419#2
 https://developer.android.com/topic/libraries/data-binding
 
 https://developer.android.com/guide/navigation/navigation-principles?hl=es-419
+
+
+
+
+
+
+
+
+
+build.gradle (navigation)
+
+
+buildFeatures {
+        dataBinding true
+    }
+
+
+
+implementation "androidx.activity:activity-ktx:$activity_version"
+implementation "androidx.fragment:fragment:$fragment_version"
+debugImplementation "androidx.fragment:fragment-testing:$fragment_version"
+
+
+
+
+
+librerias
+
+build gradlle
+
+
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+//
+buildscript {
+    //librerias
+
+    ext {
+        activity_version = "1.4.0"
+        fragment_version = "1.4.1"
+        nav_version = "2.4.2"
+    }
+//
+    repositories {
+        google()
+    }
+    dependencies {
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
+    }
+}
+//
+
