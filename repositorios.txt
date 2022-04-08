@@ -1,0 +1,11 @@
+https://github.com/Nexxtor/androidKotlin
+
+https://developer.android.com/guide/components/fragments?hl=es-419#:~:text=Un%20Fragment%20representa%20un%20comportamiento,un%20fragmento%20en%20diferentes%20actividades.
+
+https://developer.android.com/topic/libraries/architecture/viewmodel?hl=es-419
+
+https://developer.android.com/codelabs/android-lifecycles?hl=es-419#2
+
+https://developer.android.com/topic/libraries/data-binding
+
+https://developer.android.com/guide/navigation/navigation-principles?hl=es-419
